@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
+    <Content Include="D&amp;D_3-5\aaron_ammo.js" />
     <Content Include="D&amp;D_3-5\charsheet_3-5.css" />
     <Content Include="D&amp;D_3-5\charsheet_3-5.html" />
     <Content Include="D&amp;D_3-5\charsheet_3-5.jpg" />
