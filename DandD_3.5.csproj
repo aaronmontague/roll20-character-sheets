@@ -1,0 +1,120 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{9CF1AFF1-4368-477C-A6A0-6660C5199EA4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DandD_3._5</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include="D&amp;D_3-5\charsheet_3-5.css" />
+    <Content Include="D&amp;D_3-5\charsheet_3-5.html" />
+    <Content Include="D&amp;D_3-5\charsheet_3-5.jpg" />
+    <Content Include="D&amp;D_3-5\charsheet_3-5_old-noRollTemplates.html" />
+    <Content Include="D&amp;D_3-5\charsheet_3-5_old-noTabs.html" />
+    <Content Include="D&amp;D_3-5\dndbanner1.png" />
+    <Content Include="D&amp;D_3-5\HelloThere.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".github\pull_request_template.md" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\pack\pack-f66acc66dadbe5f594122f9c512887fba385900c.idx" />
+    <None Include=".git\objects\pack\pack-f66acc66dadbe5f594122f9c512887fba385900c.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\roll20-character-sheets\v15\.suo" />
+    <None Include=".vs\roll20-character-sheets\v16\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="approved.yaml" />
+    <None Include="crowdin.yml" />
+    <None Include="D&amp;D_3-5\sheet.json" />
+    <None Include="D&amp;D_3-5\translation.json" />
+    <None Include="D&amp;D_3-5\translations\af.json" />
+    <None Include="D&amp;D_3-5\translations\cs.json" />
+    <None Include="D&amp;D_3-5\translations\da.json" />
+    <None Include="D&amp;D_3-5\translations\de.json" />
+    <None Include="D&amp;D_3-5\translations\el.json" />
+    <None Include="D&amp;D_3-5\translations\en.json" />
+    <None Include="D&amp;D_3-5\translations\es.json" />
+    <None Include="D&amp;D_3-5\translations\fr.json" />
+    <None Include="D&amp;D_3-5\translations\he.json" />
+    <None Include="D&amp;D_3-5\translations\it.json" />
+    <None Include="D&amp;D_3-5\translations\ja.json" />
+    <None Include="D&amp;D_3-5\translations\ko.json" />
+    <None Include="D&amp;D_3-5\translations\nl.json" />
+    <None Include="D&amp;D_3-5\translations\pl.json" />
+    <None Include="D&amp;D_3-5\translations\pt.json" />
+    <None Include="D&amp;D_3-5\translations\ru.json" />
+    <None Include="D&amp;D_3-5\translations\sv.json" />
+    <None Include="D&amp;D_3-5\translations\tr.json" />
+    <None Include="D&amp;D_3-5\translations\zh.json" />
+    <None Include="D&amp;D_3-5\translations\zu.json" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
